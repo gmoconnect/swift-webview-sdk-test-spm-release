@@ -1,4 +1,4 @@
-// swift-tools-version: 6.0
+// swift-tools-version: 5.10
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
@@ -16,7 +16,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "CoSwiftSdk",
-            path: "Smaad_Swift_SDK_Debug.xcframework"
+            path: "Smaad_Swift_SDK_Release.xcframework"
         ),
     ]
 )
