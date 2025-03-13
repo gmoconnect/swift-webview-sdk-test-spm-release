@@ -4,18 +4,18 @@
 import PackageDescription
 
 let package = Package(
-    name: "SmaadSwiftSdk",
+    name: "CoSwiftSdk",
     platforms: [
         .iOS(.v17)
     ],
     products: [
         .library(
-            name: "SmaadSwiftSdk",
-            targets: ["SmaadSwiftSdk"]),
+            name: "CoSwiftSdk",
+            targets: ["CoSwiftSdk"]),
     ],
     targets: [
         .binaryTarget(
-            name: "SmaadSwiftSdk",
+            name: "CoSwiftSdk",
             path: "Smaad_Swift_SDK.xcframework"
         ),
     ]
