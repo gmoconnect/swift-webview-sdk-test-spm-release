@@ -16,7 +16,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "CoSwiftSdk",
-            path: "Smaad_Swift_SDK_Release.xcframework"
+            path: "Co_Swift_SDK_Release.xcframework"
         ),
     ]
 )
